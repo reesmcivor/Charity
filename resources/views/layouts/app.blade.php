@@ -32,6 +32,11 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    @guest
+                        
+                    @else
+
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
                         <li>
@@ -44,6 +49,8 @@
                             <a class="nav-link" href="{{ route('jobs') }}">Jobs</a>
                         </li>
                     </ul>
+
+                    @endguest
 
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">

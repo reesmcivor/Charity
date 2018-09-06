@@ -3,7 +3,6 @@
 @section('content')
     <div class="container">
         {{ Form::open(array('url' => $action)) }}
-        {{ Form::token() }}
         <h3>Amend Tradesperson</h3>
         <div class="form-group">
             {{ Form::label('first_name', 'First Name') }}

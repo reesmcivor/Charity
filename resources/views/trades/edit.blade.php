@@ -4,7 +4,6 @@
     <div class="container">
 
         {{ Form::open(array('url' => $action)) }}
-        {{ Form::token() }}
         <h3>Edit Tradesperson</h3>
         <div class="form-group">
             {{ Form::label('name', 'Name') }}

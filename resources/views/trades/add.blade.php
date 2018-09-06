@@ -4,7 +4,6 @@
     <div class="container">
 
         {{ Form::open(array('url' => 'admin/trades/add_post')) }}
-        {{ Form::token() }}
         <h3>Add Tradesperson</h3>
         <div class="form-group">
             {{ Form::label('name', 'Name') }}
